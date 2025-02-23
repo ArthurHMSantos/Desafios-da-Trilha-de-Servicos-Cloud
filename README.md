@@ -1,57 +1,40 @@
-# 🎙️ Análise de Sentimentos com Azure AI
+# 🔍 Configurando o Azure Cognitive Search com Azure AI Services
 
-Este projeto foi desenvolvido para demonstrar a aplicação de **Azure AI** no processamento de linguagem natural (NLP), utilizando **Speech Studio** e **Language Service** para converter áudio em texto e analisar sentimentos.
+Este projeto mostra o passo a passo para configurar uma pesquisa inteligente utilizando **Azure Cognitive Search** e **Azure AI Services**. A intenção é demonstrar como essas ferramentas podem ser integradas para criar soluções avançadas de busca, enriquecidas com inteligência artificial.
 
-## 📂 Estrutura do Projeto
+## 🚀 Passo a Passo de Configuração
 
-- **`inputs/`** – Contém os arquivos de texto gerados a partir do áudio.  
-- **`readme.md`** – Documentação e descrição do processo.  
+### 1️⃣ Criação do Azure Cognitive Search
 
-## 🚀 Como foi o Processo
+O primeiro passo foi criar um recurso de **Azure Cognitive Search**. Para isso:  
+- Selecionei a opção de **plano básico** para começar com os recursos essenciais e custos reduzidos.  
+- Configurei as opções básicas de indexação e preparei o ambiente para futuras integrações.
 
-### 1️⃣ Conversão de Áudio em Texto
-
-Utilizei o **Speech Studio** da Azure para converter meu arquivo de som `bad_habits.mp3` em texto. O resultado da conversão pode ser visto abaixo:
-
-📸 *![image](https://github.com/user-attachments/assets/1aca623f-ca1e-4ed2-a7b7-5ca6b0270383)*  
-  
-
-> **Insight:** Durante esse processo, percebi que a ferramenta lida muito bem com diferentes sotaques e variações de pronúncia, resultando em uma transcrição precisa.
-
----
-
-### 2️⃣ Configuração do Azure Language Service
-
-Em seguida, criei meu próprio serviço de **Azure AI Language** para avaliar os sentimentos do texto extraído. O serviço foi configurado para identificar emoções como positivo, negativo e neutro.
-
-📸 *![image](https://github.com/user-attachments/assets/142aabf1-29fb-4c51-8f34-7e0303d2f21a)
+📸 *![image](https://github.com/user-attachments/assets/91c7db66-6d2b-4682-ac21-badab6bf45e0)
 *  
 
-> **Insight:** A configuração do serviço foi simples, e a documentação da Azure facilitou a integração com o texto gerado pelo Speech Studio.
+> **Insight:** O Azure Search oferece uma base sólida para criar experiências de busca personalizadas, que podem ser integradas facilmente com outras ferramentas da Azure.
 
 ---
 
-### 3️⃣ Análise de Sentimento do Texto
+### 2️⃣ Criação do Azure AI Services Resource
 
-Com o texto extraído, apliquei a análise de sentimento, obtendo um resultado detalhado sobre as emoções predominantes nas frases.
+Em seguida, configurei um recurso de **Azure AI Services** para adicionar funcionalidades avançadas, como análise de texto, tradução e reconhecimento de entidade.
 
-📸 *[![image](https://github.com/user-attachments/assets/84f57f9c-c869-4628-a4bb-3ca45b0f491a)
+📸 *![image](https://github.com/user-attachments/assets/02959e18-1d20-4096-91c8-6051f854d729)
+*  
 
-> **Insight:** A análise foi capaz de identificar nuances de sentimento em frases mais complexas, o que abre possibilidades para aplicações em feedbacks automáticos, análises de reviews e muito mais.
-
----
-
-## 💡 Possibilidades Futuras
-
-- 🔍 Implementar uma análise de palavras-chave para entender os principais tópicos abordados no áudio.  
-- 📊 Integrar um painel visual (dashboard) para exibir os resultados de forma mais interativa.  
-- 🤖 Aplicar um modelo de machine learning para melhorar a precisão da análise de sentimentos.  
+> **Insight:** A integração entre o Azure AI Services e o Cognitive Search amplia as possibilidades, permitindo enriquecer os resultados da pesquisa com inteligência artificial.
 
 ---
 
-## 📸 Prints e Resultados
+### 3️⃣ Criando uma Storage Account
 
-Adicionei capturas de tela de cada etapa para ilustrar o processo e os resultados obtidos.
+Por fim, criei uma **Storage Account** para armazenar os dados que serão utilizados no processo de indexação e análise.
 
+📸 *![image](https://github.com/user-attachments/assets/ac34b5fe-7e96-4401-855c-eae221626894)
+*  
+
+> **Insight:** Uma conta de armazenamento é essencial para gerenciar documentos, imagens e outros arquivos usados na indexação e na análise dos dados. Cada tipo de dado pode ser armazenado em um local diferente, como se fossem diferentes gavetas para cada tipo de dado.
 
 ---
