@@ -1,6 +1,6 @@
 # 🤖 Explorando os Recursos de IA Generativa com Copilot e OpenAI
 
-Este projeto explora as capacidades da inteligência artificial generativa, utilizando **Copilot** e **OpenAI** para analisar imagens e textos, extraindo insights significativos a partir desses dados.
+Este projeto explora as capacidades da inteligência artificial generativa, utilizando **Microsoft Copilot** para analisar imagens e textos, extraindo insights significativos a partir desses dados.
 
 ---
 ## 🗂️ **Estrutura do Projeto**
