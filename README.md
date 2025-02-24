@@ -11,8 +11,8 @@ Este repositório foi criado para armazenar e compartilhar as soluções dos des
 O repositório está organizado em **3 branches diferentes**, cada uma dedicada a um desafio específico:  
 
 - **`Análise-de-Sentimentos-com-Language-Studio-no-Azure-AI`**: Contém a solução do primeiro desafio.  
-- **`desafio-2`**: Contém a solução do segundo desafio.  
-- **`desafio-3`**: Contém a solução do terceiro desafio.  
+- **`Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados`**: Contém a solução do segundo desafio.  
+- **`Explorando os Recursos de IA Generativa com Copilot e OpenAI`**: Contém a solução do terceiro desafio.  
 
 > 🔍 A branch `main` serve apenas para apresentar a estrutura do projeto e guiar o acesso aos desafios.
 
