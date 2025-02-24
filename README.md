@@ -10,7 +10,7 @@ Este repositório foi criado para armazenar e compartilhar as soluções dos des
 
 O repositório está organizado em **3 branches diferentes**, cada uma dedicada a um desafio específico:  
 
-- **`desafio-1`**: Contém a solução do primeiro desafio.  
+- **`Análise-de-Sentimentos-com-Language-Studio-no-Azure-AI`**: Contém a solução do primeiro desafio.  
 - **`desafio-2`**: Contém a solução do segundo desafio.  
 - **`desafio-3`**: Contém a solução do terceiro desafio.  
 
